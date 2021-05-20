@@ -16,7 +16,7 @@ body {
   padding-left:0;
 }
 
-h1, h2, h3, h4, h5, h6, q {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
 }
@@ -38,9 +38,11 @@ q {
   font-size: 22px;
   &::before {
     font-size: 42px;
+    margin-right: 5px;
   }
   &::after {
     font-size: 42px;
+    margin-left: 5px;
   }
 }
 p {
