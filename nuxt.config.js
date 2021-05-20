@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'real-portfolio',
+    title: 'Kenan DUFRENE - Portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
@@ -25,6 +25,10 @@ export default {
     scss: ['./assets/scss/*.scss']
   },
 
+  generate: {
+    dir: 'public'
+  },
+  
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
