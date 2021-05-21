@@ -2,11 +2,11 @@
   <form>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="lastname">Nom</label>
+        <label class="required" for="lastname">Nom</label>
         <input id="lastname" type="text" class="form-control" placeholder="Doe">
       </div>
       <div class="form-group col-md-6">
-        <label for="firstname">Prenom</label>
+        <label class="required" for="firstname">Prenom</label>
         <input id="lastname" type="text" class="form-control" placeholder="John">
       </div>
     </div>
@@ -21,11 +21,11 @@
       </div>
     </div>
     <div class="form-group">
-      <label for="email">Adresse mail</label>
+      <label class="required" for="email">Adresse mail</label>
       <input id="email" type="mail" class="form-control" placeholder="john.doe@live.fr">
     </div>
     <div class="form-group">
-      <label for="message">Votre message :</label>
+      <label class="required" for="message">Votre message</label>
       <textarea id="message" class="form-control" rows="5" placeholder="Bonjour, J'aimerai avoir des infos sur..." />
     </div>
     <button type="submit" class="btn btn-primary">
@@ -41,7 +41,14 @@ export default {
 </script>
 
 <style lang="scss">
-.form-control {
-  border: 1px solid $main-color;
+.form-group {
+  label.required:after {
+    content: '*';
+    color: $error;
+  }
+  .form-control {
+    border: 1px solid $main-color;
+  }
 }
+
 </style>

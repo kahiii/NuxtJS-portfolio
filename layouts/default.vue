@@ -35,14 +35,14 @@ h4 {
 }
 
 q {
-  font-size: 22px;
+  font-size: 20px;
   &::before {
-    font-size: 42px;
-    margin-right: 5px;
+    font-size: 32px;
+    margin-right: 15px;
   }
   &::after {
-    font-size: 42px;
-    margin-left: 5px;
+    font-size: 32px;
+    margin-left: 15px;
   }
 }
 p {
