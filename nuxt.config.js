@@ -13,13 +13,13 @@ export default {
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
         { hid: 'twitter:title', name: 'twitter:title', content: 'Kenan DUFRENE - Développeur web Front-End' },
         { hid: 'twitter:description', name: 'twitter:description', content: "Passionné par la programmation depuis mon enfance, je me suis orienté dans le domaine du web et plus particulièrement sur les technologies Javascript." },
-        { hid: 'twitter:image', name: 'twitter:image', content: require('~/assets/uploads/og-image.png') },
+        { hid: 'twitter:image', name: 'twitter:image', content: require('~/assets/uploads/og-image.jpg') },
         { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Kenan DUFRENE - Développeur web Front-End' },
         /// open-graph
         { hid: 'og:title', property: 'og:title', content: 'Kenan DUFRENE - Développeur web Front-End' },
         { hid: 'og:description', property: 'og:description', content: "Passionné par la programmation depuis mon enfance, je me suis orienté dans le domaine du web et plus particulièrement sur les technologies Javascript." },
-        { hid: 'og:image', property: 'og:image', content: require('~/assets/uploads/og-image.png') },
-        { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: require('~/assets/uploads/og-image.png') },
+        { hid: 'og:image', property: 'og:image', content: require('~/assets/uploads/og-image.jpg') },
+        { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: require('~/assets/uploads/og-image.jpg') },
         { hid: 'og:image:alt', property: 'og:image:alt', content: 'Kenan DUFRENE - Développeur web Front-End' }
       ],
       link: [
